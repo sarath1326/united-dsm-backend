@@ -19,7 +19,7 @@ app.use(express.json());
 
 app.use( 
     cors({
-        origin:("http://localhost:3000"),
+        origin:("https://united-dsm-site.onrender.com"),
         methods:["GET","POST","DELETE"],
         credentials:true
     })
